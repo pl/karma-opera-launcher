@@ -31,7 +31,9 @@ var PREFS =
     'Newest Used Version=1.00.0000\n\n' +
     '[State]\n' +
     'Accept License=1\n' +
-    'Run=0\n';
+    'Run=0\n' +
+    "[Network]\n" +
+    "Allow Cross Network Navigation=1\n";
 
 
 var OperaBrowser = function(baseBrowserDecorator) {
